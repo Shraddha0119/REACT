@@ -1,6 +1,7 @@
 
 import './App.css'
-import Counter from './components/Hooks/Counter'
+import Arr from './components/Hooks/Arr'
+import StudentForm from './components/Hooks/StudentForm'
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
   return(
     <>
 
-    <Counter/>
+  <StudentForm/>
+ 
     </>
   )
 }
