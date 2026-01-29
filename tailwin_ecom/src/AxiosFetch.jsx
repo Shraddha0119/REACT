@@ -28,9 +28,7 @@ const AxiosProduct = () => {
     },[])
 
 
-
-
-  return (
+return (
 <div className='p-6'>
     {loading && <h1 className='text-center text -2xl'>Loading...</h1>}
     {loading && <h1 className='text-center text-red-500'>{error}</h1>}
