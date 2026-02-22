@@ -8,4 +8,5 @@ const product = await productModel.create({name,price,category});
 console.log(product);
 
 }
+
 export default createProduct;

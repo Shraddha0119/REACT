@@ -7,12 +7,12 @@ function App() {
 
 
   return(
-    <>
-
+  <>
+  
   <StudentForm/>
- 
-    </>
-  )
+  </>
+   
+    )
 }
 
 export default App
