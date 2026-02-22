@@ -6,5 +6,6 @@ const productSchema = new mongoose.Schema({
     category:String
 })
 
+
 const productModel = mongoose.model("product", productSchema)
 export default productModel;
