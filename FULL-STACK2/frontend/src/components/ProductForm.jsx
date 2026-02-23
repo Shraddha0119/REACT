@@ -1,8 +1,6 @@
 import React,{useState} from 'react'
 import axios from "axios"
 
-
-
 const ProductForm = () => {
     const [product,setProduct] = useState({
         name:"",
@@ -29,8 +27,6 @@ const ProductForm = () => {
   const handleChange = (e) =>{
     setProduct({...product,[e.target.name]:e.target.value})
   }
-
-
 
   return (
  <form onSubmit={handleSubmit}>
