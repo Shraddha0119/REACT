@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import axios from "axios"
 
-const ProductForm = () => {
+const ProductForm = ({fetchProduct}) => {
     const [product,setProduct] = useState({
         name:"",
         price:"",
@@ -14,7 +14,8 @@ const ProductForm = () => {
     try {
         e.preventDefault()
        await axios.post("http://localhost:5000/api/product/create",product) ;
-       alert("product added")
+       alert("product added");
+       fetchProduct()
     } catch (error) {
         console.log(error);
         
@@ -35,7 +36,7 @@ const ProductForm = () => {
     <input name='category' type="text" placeholder='category' onChange={handleChange}/>
     <button>Add Product</button>
  </form>
-  )
+  );
 }
 
 export default ProductForm

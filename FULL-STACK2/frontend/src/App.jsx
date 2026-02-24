@@ -1,6 +1,7 @@
 
 import './App.css'
 import ProductForm from './components/ProductForm'
+import ProductList from './components/ProductList'
 
 function App() {
  
@@ -9,6 +10,7 @@ function App() {
     <div>
       <h1>axios product crud</h1>
       <ProductForm/>
+      <ProductList/>
     </div>
    
   )
