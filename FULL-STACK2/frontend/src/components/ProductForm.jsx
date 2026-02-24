@@ -18,11 +18,9 @@ const ProductForm = ({fetchProduct}) => {
        fetchProduct()
     } catch (error) {
         console.log(error);
-        
-        
+         
     }
    
-    
   }
 
   const handleChange = (e) =>{
