@@ -78,17 +78,17 @@ const ProductList = () => {
         
 
       
-        {products.map((p)=>(
-            <div key={p._id}>
-               <div style={{border:"1px solid black"}}>
-                <h1> {p.name}</h1>
-                <h2> {p.price}</h2>
-                <h3>  {p.category}</h3>
-                <button onClick={()=>deletefun(p._id)}>Delete</button>
-                <button onClick={()=>handleEdit(p)}>Update</button>
-               </div>
+{products.map((p)=>(
+  <div key={p._id}>
+     <div style={{border:"1px solid black"}}>
+         <h1> {p.name}</h1>
+         <h2> {p.price}</h2>
+         <h3>  {p.category}</h3>
+         <button onClick={()=>deletefun(p._id)}>Delete</button>
+         <button onClick={()=>handleEdit(p)}>Update</button>
+      </div>
             
-            </div>
+    </div>
 
         ))}
     </div>
