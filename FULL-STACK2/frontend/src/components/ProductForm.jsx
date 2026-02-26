@@ -8,6 +8,7 @@ const ProductForm = ({fetchProduct}) => {
         category:""
     })
 
+    
   const handleSubmit = async(e)=>{
     try {
         e.preventDefault()
@@ -34,6 +35,5 @@ const ProductForm = ({fetchProduct}) => {
  </form>
   );
 }
-
 
 export default ProductForm
