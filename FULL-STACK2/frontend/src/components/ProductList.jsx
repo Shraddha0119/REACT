@@ -74,7 +74,6 @@ return (
 )
 }
         
-
       
 {products.map((p)=>(
   <div key={p._id}>
@@ -92,5 +91,6 @@ return (
     </div>
   );
 }
+
 
 export default ProductList
