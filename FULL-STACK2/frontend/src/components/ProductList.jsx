@@ -59,9 +59,7 @@ const ProductList = () => {
 
 
 
-   
-
-  return (
+return (
     <div>
         <h2>Products</h2>
 
