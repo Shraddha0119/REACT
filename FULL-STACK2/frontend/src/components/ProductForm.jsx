@@ -37,5 +37,4 @@ const ProductForm = ({fetchProduct}) => {
   );
 }
 
-
 export default ProductForm
