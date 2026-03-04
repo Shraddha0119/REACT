@@ -22,7 +22,7 @@ const ProductForm = ({fetchProduct}) => {
    
   }
 
-  
+
   const handleChange = (e) =>{
     setProduct({...product,[e.target.name]:e.target.value})
   }

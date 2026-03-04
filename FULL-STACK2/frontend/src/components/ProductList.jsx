@@ -92,5 +92,4 @@ return (
   );
 }
 
-
 export default ProductList
