@@ -57,8 +57,6 @@ const ProductList = () => {
         fetchProduct();
     },[])
 
-
-
 return (
     <div>
         <h2>Products</h2>
