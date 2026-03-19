@@ -71,6 +71,8 @@ return (
  </div>
 )
 }
+
+
            
 {products.map((p)=>(
   <div key={p._id}>
