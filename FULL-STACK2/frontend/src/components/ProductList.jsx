@@ -72,8 +72,6 @@ return (
 )
 }
 
-
-
 {products.map((p)=>(
   <div key={p._id}>
      <div style={{border:"1px solid black"}}>
