@@ -9,12 +9,12 @@ function App() {
   return (
     <>
      <Navbar/>
-    <div>
+    {/* <div>
      
     <h1>hello i am Web Developer</h1>
     <div  className='count'>{count}</div>
     <button className='btn'  onClick={()=>{setCount(count+1)}}>Click</button>
-    </div>
+    </div> */}
     </>
   )
 }
