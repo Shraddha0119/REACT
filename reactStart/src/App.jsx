@@ -26,6 +26,7 @@ function App() {
     <div  className='count'>{count}</div>
     <button className='btn'  onClick={()=>{setCount(count+1)}}>Click</button>
     </div> */}
+    
     <div  className='count'>{count}</div>
      <button className='btn'  onClick={()=>{setCount(count+1)}}>Click</button>
     </>
