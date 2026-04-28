@@ -2,6 +2,7 @@ import { useState ,useEffect } from 'react'
 
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,16 +20,17 @@ function App() {
 
   return (
     <>
-     {/* <Navbar/> */}
-    {/* <div>
+     <Navbar/>
+    <div>
      
     <h1>hello i am Web Developer</h1>
     <div  className='count'>{count}</div>
     <button className='btn'  onClick={()=>{setCount(count+1)}}>Click</button>
-    </div> */}
+    </div>
     
-    <div  className='count'>{count}</div>
-     <button className='btn'  onClick={()=>{setCount(count+1)}}>Click</button>
+    {/* <div  className='count'>{count}</div>
+     <button className='btn'  onClick={()=>{setCount(count+1)}}>Click</button> */}
+     <Footer/>
     </>
   )
 }
