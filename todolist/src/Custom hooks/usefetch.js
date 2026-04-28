@@ -17,6 +17,8 @@ const usefetch = async() => {
 
     return data;
     
+
+    
 }
 
 export default usefetch
