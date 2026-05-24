@@ -8,7 +8,6 @@ const usefetch = async() => {
         apiCall()
     },[])
 
-
     const apiCall = async()=>{
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
     const resdata = await res.json()
